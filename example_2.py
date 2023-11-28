@@ -11,7 +11,6 @@ class Car:
     def get_car_name(self) -> str:
         return self.model
 
-
 car = Car(model="Mercedes", date_of_manufacturing=2014, engine_capacity=2.3)
 
 print(car.get_car_name())
